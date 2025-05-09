@@ -6,7 +6,7 @@ from tkinter import messagebox
 root = tk.Tk()
 root.title('Image Resizer')
 
-img_vars = {"width": 680, "height": 200,"image_path":'', 'dim_width':None, 'dim_height': None, 'output_folder_path': ''}
+img_vars = {"width": 740, "height": 220,"image_path":'', 'dim_width':None, 'dim_height': None, 'output_folder_path': ''}
 
 
 root.geometry(f"{img_vars['width']}x{img_vars['height']}")
